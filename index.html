@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Calculator App</h1>
+    <table border="2">
+
+        <tr>
+            <td onclick="myFun(1)">1</td>
+            <td onclick="myFun(2)">2</td>
+            <td onclick="myFun(3)">3</td>
+        </tr>
+        <tr>
+            <td onclick="myFun(4)">4</td>
+            <td onclick="myFun(5)">5</td>
+            <td onclick="myFun(6)">6</td>
+        </tr>
+        <tr>
+            <td onclick="myFun(7)">7</td>
+            <td onclick="myFun(8)">8</td>
+            <td onclick="myFun(9)">9</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td onclick="myFun(0)">0</td>
+            <td></td>
+        </tr>
+
+    </table>
+    <br>
+    <button onclick="operator('+')">Add(+)</button>
+    <button onclick="operator('-')">Sub(-)</button>
+    <button onclick="operator('*')">Mul(*)</button>
+    <button onclick="operator('/')">Div(/)</button>
+    <button onclick="compute()">Calculate result(=)</button>
+    <button onclick="window.location.reload()" id="ref">Refresh Calculator</button>
+    <br>
+    <p id="expression">Expression= : </p>
+
+    <script src=" script.js ">
+    </script>
+</body>
+
+</html>

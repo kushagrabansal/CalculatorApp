@@ -1,0 +1,12 @@
+table {
+    text-align: center;
+    width: 65%;
+}
+
+tr {
+    height: 100px;
+}
+
+#ref {
+    display: none;
+}
